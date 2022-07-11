@@ -5,7 +5,7 @@ import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
 import { Fade, Stagger } from 'react-animation-components';
 
-function RenderLeader({leader}) {       
+function RenderLeader({leader}) {       // all
     if (leader != null) {   
     return(
         <div key={leader.id} className="col-12 mt-5">
